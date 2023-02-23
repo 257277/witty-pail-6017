@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="./style/login_signup.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="signup">
+            <div>
+                <h4>CREATE AN ACCOUNT</h4>
+                <p>Please enter the following information to create your account.</p>
+            </div>
+            <form>
+
+                <input type="radio" class="mr" value="Mr." name="options">Mr.
+                <input type="radio" class="mr" value="Ms." name="options">Ms.
+                <input type="radio" class="mr" value="Mrs." name="options">Mrs.<br>
+                <input type="text" placeholder="first name" value="" class="field" id="firstName"><br>
+                <input type="text" placeholder="last name" value="" class="field" id="lastName"><br>
+                <input type="email" placeholder="email address" value="" class="field" id="email"><br>
+                <input type="password" placeholder="password" value="" class="field" id="password"><br>
+                <input type="password" placeholder="confirm password" value="" class="field" id="confirmpassword"><br>
+            </form>
+            <button class="sbmt" id="signupform">REGISTER</button>
+        </div>
+        <div class="vl"></div>
+        <div id="login">
+            <div>
+                <h4>ALREADY REGISTERED?</h4>
+                <p>If you have an account with us, please log in.</p>
+            </div>
+            <form>
+                <input type="email" placeholder="email address" value="" class="field" id="lemail"><br>
+                <input type="password" placeholder="password" value="" class="field" id="lpassword"><br>
+            </form>
+            <button class="sbmt" id="loginform">LOGIN</button>
+            <p>At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to
+                your account before you are able to place an order or change the information on your account. You will
+                be asked to log in to complete your order even if you have already been greeted on the website.</p>
+        </div>
+    </div>
+</body>
+<script src="./script/login_signup.js"></script>
+
+</html>
