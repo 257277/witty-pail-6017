@@ -1,0 +1,65 @@
+#container {
+
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 90%;
+    position: sticky;
+    top: 4%;
+    left: 50%;
+    margin-left: -3px;
+
+}
+
+#signup {
+    width: 40%;
+
+    padding-left: 3%;
+    font-size: 20px;
+    padding: 4%;
+}
+
+p {
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.field {
+    width: 80%;
+    height: 40px;
+}
+
+#login {
+    width: 40%;
+
+    padding-left: 3%;
+    padding: 4%;
+    font-size: 20px;
+}
+
+.sbmt {
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
