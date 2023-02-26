@@ -8,14 +8,15 @@ const { accessoriesRoute } = require("./config/routes/accessoriesRoutes")
 const { clothRouter } = require("./config/routes/clothRoute");
 const { shoesRouter } = require("./config/routes/shoesRoute");
 const { bagRouter } = require("./config/routes/bagRoutes");
+const { cartRouter } = require("./config/routes/cartRoutes");
 app.use(express.json());
 app.use(cors())
 app.use("/user", userRoute);
 app.use("/accessories", accessoriesRoute);
 app.use("/cloth", clothRouter);
 app.use("/shoes", shoesRouter);
-app.use("/bag", bagRouter)
-
+app.use("/bag", bagRouter);
+app.use("/cart", cartRouter);
 
 app.listen(process.env.port, async () => {
     try {

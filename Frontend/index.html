@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindester</title>
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div id="navbar"> </div>
+    <div>
+        <div id="fsthome">
+            <div class="fsthome1">
+                <h2>_New wardrobe cornerstones</h2>
+                <h1>Cruise 2023</h1>
+                <button><a href="./cloth.html">SHOP NOW</a></button>
+            </div>
+        </div>
+
+        <div id="sndhome">
+            <h1>NEW ARRIVALS</h1>
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <button class="extrnbtn"><a href="./cloth.html">SHOP NOW</a></button>
+        <div id="thrdhome">
+            <div>
+                <h1>
+                    The Tailored approach
+                </h1>
+                <p>Discerning dressers know the worth that classic suiting and formal designs bring to an edit</p>
+                <button><a href="./cloth.html">SHOP NOW</a></button>
+            </div>
+            <div>
+                <img src="https://img.mytheresa.com/media/static/raw/cms/l/MW_HP_2023_CW08/BIG2/BIG2_DESKTOP_2x_20230220111401.jpg?imwidth=1180&imdensity=2"
+                    alt="">
+            </div>
+        </div>
+
+        <div id="frthhome">
+            <h1>TRANDING SHOES</h1>
+            <div class="container1">
+
+                <div class="swiper1">
+                    <div class="swiper-wrapper"></div>
+
+                </div>
+            </div>
+        </div>
+        <button class="extrnbtn"><a href="./shoes.html">SHOP NOW</a></button>
+    </div>
+
+    <hr>
+    <div id="footer"></div>
+</body>
+<script type="module" src="./script/index.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.min.js"></script>
+<script>
+
+    const swiper1 = new Swiper('.swiper', {
+
+        direction: 'horizontal',
+        loop: true,
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+
+
+    });
+    const swiper2 = new Swiper('.swiper1', {
+
+        direction: 'horizontal',
+        loop: true
+
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // }
+
+
+    });
+</script>
+
+</script>
+
+
+</html>

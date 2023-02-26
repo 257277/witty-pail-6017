@@ -1,3 +1,14 @@
+import { navComp } from "../components/NavCom.js";
+import { footerComp } from "../components/FooterCom.js";
+let navbar_div = document.getElementById('navbar');
+navbar_div.innerHTML = navComp();
+
+
+let footer_div = document.getElementById("footer");
+footer_div.innerHTML = footerComp();
+
+
+
 document.querySelector("#signupform").addEventListener("click", () => {
     let obj = {};
     let firstName = document.querySelector("#firstName").value;
