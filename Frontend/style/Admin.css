@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+#afst {
+    display: flex;
+    justify-content: space-around;
+}
+
+#note {
+    font-size: 20px;
+    text-align: center;
+}

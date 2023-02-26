@@ -4,9 +4,31 @@ const accessoriesRoute = express.Router();
 const { AccessoriesModel } = require("../model/Accessories");
 
 accessoriesRoute.get("/", async (req, res) => {
+    let obj = {};
+    if (req.headers.bags != undefined && req.headers.bags != "") {
+        obj.category = req.headers.bags;
+    }
+    if (req.headers.color != undefined && req.headers.color != "") {
+        obj.color = req.headers.color;
+    }
+    pricefltr = {};
+    if (req.headers.price != undefined && req.headers.price != "") {
+        if (req.headers.price == "Dec") {
+            pricefltr.price = -1;
+        }
+        else {
+            pricefltr.price = 1;
+        }
+    }
     try {
-        let user = await AccessoriesModel.find();
-        res.send(user);
+        if (pricefltr.price == undefined) {
+            let user = await AccessoriesModel.find(obj);
+            res.send(user);
+        }
+        else {
+            let user = await AccessoriesModel.find(obj).sort(pricefltr);
+            res.send(user);
+        }
     }
     catch (err) {
         res.send(err);

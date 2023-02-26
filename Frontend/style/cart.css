@@ -1,0 +1,87 @@
+.hr {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#fstcart {
+
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+#fstcart1 {
+
+    width: 50%;
+    font-size: 20px;
+}
+
+#fstcart1 .cartimage {
+    margin-left: 0%;
+}
+
+#fstcart2 {
+
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.cartitem {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.cartimage img {
+    width: 250px;
+    height: 300px;
+}
+
+#fstcart2 {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px
+}
+
+#fstcart2 div {
+
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    font-size: 25px;
+    top: 10%
+}
+
+button {
+    margin-right: 10%;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(84, 105, 212);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 8px;
+    display: inline-block;
+    min-height: 28px;
+    transition: background-color .24s, box-shadow .24s;
+}
+
+button:hover {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+
+.updateCart {
+    margin-left: 40%;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}

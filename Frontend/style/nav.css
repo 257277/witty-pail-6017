@@ -1,0 +1,48 @@
+#firstNav {
+
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+#firstNav1 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#firstNav2 {
+
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    color: gray;
+}
+
+#secondNav {
+
+    height: 180px;
+    align-items: center;
+
+
+}
+
+#secondNav img {
+
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+
+}
+
+#thirdNav {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}

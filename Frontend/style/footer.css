@@ -1,0 +1,47 @@
+#footer1 {
+    width: 80%;
+    margin: auto;
+
+}
+
+#fst h4 {
+    text-align: center;
+}
+
+#second {
+    display: flex;
+    justify-content: space-around;
+}
+
+#apps {
+    width: 130px;
+    height: 40px;
+}
+
+#app1 {
+
+    width: 130px;
+    height: 43px;
+}
+
+#footer2 {
+
+    text-align: center;
+}
+
+#footer3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer3 ul li {
+    list-style: none;
+}
+
+#footer3 h4 {
+    padding-left: 10%;
+}
+
+.ftr {
+    color: grey;
+}
